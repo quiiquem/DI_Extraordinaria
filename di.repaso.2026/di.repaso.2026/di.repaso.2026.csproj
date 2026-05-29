@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>di.repaso._2026</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Recursos\Iconos\addequipo.png" />
+    <None Remove="Recursos\Iconos\addjugador.png" />
+    <None Remove="Recursos\Iconos\arbolequipo.png" />
+    <None Remove="Recursos\Iconos\arboljugador.png" />
+    <None Remove="Recursos\Iconos\cerrar.png" />
+    <None Remove="Recursos\Iconos\facebook.png" />
+    <None Remove="Recursos\Iconos\google.png" />
+    <None Remove="Recursos\Iconos\listaequipo.png" />
+    <None Remove="Recursos\Iconos\listajugador.png" />
+    <None Remove="Recursos\Iconos\pelota.png" />
+    <None Remove="Recursos\Iconos\usuario.png" />
+    <None Remove="Recursos\Imagenes\login.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Backend\Modelo\" />
+    <Folder Include="Frontend\ControlUsuario\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="5.3.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.26" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.26">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="8.0.26" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.1" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.22" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Recursos\Iconos\addequipo.png" />
+    <Resource Include="Recursos\Iconos\addjugador.png" />
+    <Resource Include="Recursos\Iconos\arbolequipo.png" />
+    <Resource Include="Recursos\Iconos\arboljugador.png" />
+    <Resource Include="Recursos\Iconos\cerrar.png" />
+    <Resource Include="Recursos\Iconos\facebook.png" />
+    <Resource Include="Recursos\Iconos\google.png" />
+    <Resource Include="Recursos\Iconos\listaequipo.png" />
+    <Resource Include="Recursos\Iconos\listajugador.png" />
+    <Resource Include="Recursos\Iconos\pelota.png" />
+    <Resource Include="Recursos\Iconos\usuario.png" />
+    <Resource Include="Recursos\Imagenes\login.jpg" />
+  </ItemGroup>
+
+</Project>
