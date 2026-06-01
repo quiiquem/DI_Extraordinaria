@@ -1,4 +1,5 @@
 using di.repaso._2026.Backend.Modelo;
+using di.repaso._2026.MVVM.Base;
 using Microsoft.Extensions.Logging;
 
 namespace di.repaso._2026.Backend.Repositorio

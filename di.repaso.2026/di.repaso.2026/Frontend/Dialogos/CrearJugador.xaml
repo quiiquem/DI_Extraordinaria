@@ -1,0 +1,95 @@
+﻿<mah:MetroWindow x:Class="di.repaso._2026.Frontend.Dialogos.CrearJugador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:di.repaso._2026.Frontend.Dialogos"
+        mc:Ignorable="d"
+                   xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+                  Loaded="Jugadores_Loaded"
+                ResizeMode="NoResize"
+                 Icon="/Recursos/Iconos/pelota.png"
+        Title="CREAR JUGADOR" Height="450" Width="800">
+    <Grid Background="#476db6">
+
+        <!--Eclipse.-->
+        <Canvas>
+            <Ellipse Fill="#302f41" Canvas.Right="-350" Canvas.Top="-70" Width="700" Height="630"></Ellipse>
+        </Canvas>
+        <!--Login grid-->
+        <Grid Margin="80,60">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.24*"/>
+                <ColumnDefinition Width="0.8*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--<StackPanel de la izquierda (imagen y tal)-->
+            <StackPanel Grid.Column="0" Orientation="Vertical" Background="#302f41">
+                <Image Source="/Recursos/Imagenes/login.jpg" Margin="0,100"/>
+                <TextBlock FontSize="13" Text="AÑADIR EQUIPO" Foreground="White" FontWeight="DemiBold"
+                           HorizontalAlignment="Center" Margin="0,-80,0,0"/>
+                <Separator Width="70" Background="White" Height="1" Margin="0,-105,0,0"/>
+            </StackPanel>
+
+            <!--StackPanel de la derecha (Añadir equipo)-->
+            <StackPanel Grid.Column="1" Orientation="Vertical" Background="White">
+                <TextBlock FontSize="16" Text="AÑADIR JUGADOR" HorizontalAlignment="Center" FontWeight="DemiBold" Foreground="Black"
+                           Margin="0,60"/>
+
+                <TextBlock FontSize="12" Text="Por favor escriba sobre los campos necesarios" HorizontalAlignment="Center" Margin="0,-60" Foreground="Black"/>
+
+                <!--Textboxes (Datos del jugador)-->
+                <StackPanel Orientation="Horizontal" Height="35">
+
+                    <TextBox Width="170" Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Nombre de Jugador"  
+                             Text="{Binding jugador.Nombre, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"
+          Background="#F5F5F5" mah:TextBoxHelper.ClearTextButton="True" Margin="50,0"/>
+
+                    <TextBox  Width="170"  Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Procedencia" Margin="0,-50" 
+                               Text="{Binding jugador.Procedencia, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"
+          Background="#F5F5F5" mah:TextBoxHelper.ClearTextButton="True"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Height="35">
+
+                    <TextBox Width="170" Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Altura" PreviewTextInput="SoloDecimales"
+                      Text="{Binding jugador.Altura, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"
+   Background="#F5F5F5" mah:TextBoxHelper.ClearTextButton="True" Margin="50,0"/>
+
+                    <TextBox  Width="170"  Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Peso" Margin="0,-50" PreviewTextInput="SoloDecimales"
+                        Text="{Binding jugador.Peso, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"
+   Background="#F5F5F5" mah:TextBoxHelper.ClearTextButton="True"/>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Height="35">
+
+                    <ComboBox Width="170" Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Equipo" 
+Background="#F5F5F5" Margin="50,0" 
+                    ItemsSource="{Binding listaEquipos}"  DisplayMemberPath="Nombre"
+                    SelectedItem="{Binding jugador.NombreEquipoNavigation, Mode=TwoWay, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+
+                    <ComboBox  Width="170"  Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Posición" Margin="0,-50" 
+Background="#F5F5F5"  ItemsSource="{Binding listaPosiciones}"
+                  SelectedValue="{Binding jugador.Posicion, Mode=TwoWay,  NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+
+                </StackPanel>
+                <!--Boton to flama asi gradiente-->
+                <Button Content="ACEPTAR" Width="270" Height="35" Margin="0,10" Click="anyadir_Jugador"
+        FontSize="11" Foreground="White" BorderThickness="0">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="Purple" Offset="0"/>
+                            <GradientStop Color="DeepSkyBlue" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+                <Separator Background="DarkOrange" Width="270" Margin="0,30"/>
+
+                <!--Pelota.-->
+                <Image Source="/Recursos/Iconos/pelota.png" HorizontalAlignment="Left" Width="30" Margin="-15,0"></Image>
+            </StackPanel>
+        </Grid>
+    </Grid>
+    </mah:MetroWindow>

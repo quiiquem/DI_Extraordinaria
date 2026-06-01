@@ -11,7 +11,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using di.repaso._2026.Backend.Repositorio;
+using di.repaso._2026.MVVM;
 using MahApps.Metro.Controls;
+using Microsoft.Extensions.DependencyInjection;
 
 
 namespace di.repaso._2026.Frontend.Dialogos
@@ -21,18 +24,19 @@ namespace di.repaso._2026.Frontend.Dialogos
     /// </summary>
     public partial class Login : MetroWindow
     {
-        public Login()
+        private readonly IServiceProvider _serviceProvider;
+
+        public Login(IServiceProvider serviceProvider)
         {
             InitializeComponent();
+            _serviceProvider = serviceProvider;
         }
 
         public void abrir(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow();
+            var main = _serviceProvider.GetRequiredService<MainWindow>();
             main.Show();
             this.Close();
         }
-
-
     }
 }

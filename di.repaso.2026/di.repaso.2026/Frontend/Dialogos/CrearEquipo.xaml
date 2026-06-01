@@ -8,6 +8,7 @@
         xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
                  Icon="/Recursos/Iconos/pelota.png"
                     Height="550" Width="800"
+                 Loaded="Equipos_Loaded"
         Title="AÑADIR EQUIPO">
     <Grid Background="#476db6">
 
@@ -38,39 +39,44 @@
                 <TextBlock FontSize="12" Text="Por favor escriba sobre los campos necesarios" HorizontalAlignment="Center" Margin="0,-60" Foreground="Black"/>
 
                 <!--Textboxes (Datos del equipo)-->
+                <StackPanel Orientation="Horizontal" Height="35">
 
-                <TextBox Width="270" Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Nombre de Usuario" Margin="0,-50" 
-                        Background="#F5F5F5" mah:TextBoxHelper.ClearTextButton="True"/>
+                    <TextBox Width="170" Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Nombre de Equipo"  
+                             Text="{Binding equipo.Nombre, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"
+          Background="#F5F5F5" mah:TextBoxHelper.ClearTextButton="True" Margin="50,0"/>
 
-                <PasswordBox Width="270" Height="35"  FontSize="12" VerticalContentAlignment="Center"  Foreground="Gray" mah:TextBoxHelper.Watermark="Clave de acceso" 
-        Background="#F5F5F5" mah:TextBoxHelper.ClearTextButton="True" Margin="0,40"/>
+                    <TextBox  Width="170"  Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Nombre de Ciudad" Margin="0,-50" 
+                               Text="{Binding equipo.Ciudad, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"
+          Background="#F5F5F5" mah:TextBoxHelper.ClearTextButton="True"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Height="35">
+
+                    <ComboBox Width="170" Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Conferencia" 
+          Background="#F5F5F5" Margin="50,0" 
+                              ItemsSource="{Binding listaConferencias}" 
+                              SelectedItem="{Binding equipo.Conferencia, Mode=TwoWay, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+
+                    <ComboBox  Width="170"  Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="División" Margin="0,-50" 
+          Background="#F5F5F5"  ItemsSource="{Binding listaDivisiones}"
+                            SelectedItem="{Binding equipo.Division, Mode=TwoWay,  NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+
+                </StackPanel>
+                
 
                 <!--Boton to flama asi gradiente-->
-                <Button Content="INICIO DE SESIÓN" Width="270" Height="35" Margin="0,-20" Click="abrir"
+                <Button Content="CREAR EQUIPO" Width="270" Height="35" Margin="0,20" Click="crear_equipo"
         FontSize="11" Foreground="White" BorderThickness="0">
                     <Button.Background>
                         <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                            <GradientStop Color="#476db6" Offset="0"/>
-                            <GradientStop Color="#5b8fd4" Offset="1"/>
+                            <GradientStop Color="Purple" Offset="0"/>
+                            <GradientStop Color="DeepSkyBlue" Offset="1"/>
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
 
-                <Separator Background="DarkOrange" Width="270" Margin="0,30"></Separator>
-
-                <StackPanel Orientation="Horizontal">
-
-                    <!--Google-->
-                    <Button Width="130" Height="30" Background="Transparent" BorderThickness="1" BorderBrush="#476db6"
-                            Margin="100,0">
-                        <Image Source="/Recursos/Iconos/google.png" Width="23" VerticalAlignment="Center" Height="30" Margin="0,-4"/>
-                    </Button>
-                    <!--Facebook-->
-                    <Button Width="130" Height="30" Background="Transparent" BorderThickness="1" BorderBrush="#476db6"
-         Margin="-100,0">
-                        <Image Source="/Recursos/Iconos/facebook.png" Width="23" VerticalAlignment="Center" Height="30" Margin="0,-4"/>
-                    </Button>
-                </StackPanel>
+                <Separator Background="DarkOrange" Width="270" Margin="0,30"/>
 
                 <!--Pelota.-->
                 <Image Source="/Recursos/Iconos/pelota.png" HorizontalAlignment="Left" Width="30" Margin="-15,0"></Image>

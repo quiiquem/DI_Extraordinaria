@@ -1,6 +1,7 @@
 ﻿using di.repaso._2026.Backend.Modelo;
 using di.repaso._2026.Backend.Repositorio;
 using di.repaso._2026.Frontend.Dialogos;
+using di.repaso._2026.MVVM;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System.Configuration;
@@ -43,7 +44,20 @@ namespace di.repaso._2026
             // Lo hacemos con AddScoped para que se cree una nueva instancia
             // de cada repositorio por cada petición
             // Esto es útil para evitar problemas de concurrencia
-            
+
+            //Los mis
+            services.AddTransient<MainWindow>();
+            services.AddTransient<VMNba>();
+            services.AddTransient<EquipoRepositorio>();
+            services.AddTransient<JugadorRepositorio>();
+            services.AddTransient<CrearEquipo>();
+            services.AddTransient<CrearJugador>();
+     
+
+
+            System.Diagnostics.PresentationTraceSources.DataBindingSource.Switch.Level =
+    System.Diagnostics.SourceLevels.Warning;
+
         }
         protected override void OnStartup(StartupEventArgs e)
         {
