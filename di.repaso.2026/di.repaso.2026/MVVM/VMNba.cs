@@ -160,7 +160,6 @@ namespace di.repaso._2026.MVVM
                 // Obtener el último ID y sumarle 1
                 int ultimo_id = _jugadorRepository.getLastId();
                 _jugador.Codigo = ultimo_id + 1;
-                _jugador.NombreEquipo = _jugador.NombreEquipoNavigation?.Nombre;
 
                 // Guardar directamente
                 bool correcto = await AddAsync(_jugadorRepository, _jugador);
@@ -179,6 +178,7 @@ namespace di.repaso._2026.MVVM
             }
             catch (Exception ex)
             {
+
                 MessageBox.Show(ex.Message);
                 return false;
             }

@@ -69,7 +69,6 @@ namespace di.repaso._2026.Frontend.Dialogos
             {
                 try
                 {
-
                     bool guardado = await _vmNba.GuardarJugador();
 
                     if (guardado)

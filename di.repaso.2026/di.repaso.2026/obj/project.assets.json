@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
-    "net8.0-windows": {
+    "net8.0-windows7.0": {
       "BouncyCastle.Cryptography/2.6.2": {
         "type": "package",
         "compile": {
@@ -3346,7 +3346,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0-windows": [
+    "net8.0-windows7.0": [
       "MaterialDesignThemes.MahApps >= 5.3.1",
       "Microsoft.EntityFrameworkCore >= 8.0.26",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.26",
@@ -3356,19 +3356,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\enriq\\.nuget\\packages\\": {}
+    "C:\\Users\\PRACTICAS1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enriq\\Documents\\Extraordinarias\\DI_Extraordinaria\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026.csproj",
+      "projectUniqueName": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026.csproj",
       "projectName": "di.repaso.2026",
-      "projectPath": "C:\\Users\\enriq\\Documents\\Extraordinarias\\DI_Extraordinaria\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026.csproj",
-      "packagesPath": "C:\\Users\\enriq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enriq\\Documents\\Extraordinarias\\DI_Extraordinaria\\di.repaso.2026\\di.repaso.2026\\obj\\",
+      "projectPath": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026.csproj",
+      "packagesPath": "C:\\Users\\PRACTICAS1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\enriq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PRACTICAS1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3379,7 +3379,7 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows": {
+        "net8.0-windows7.0": {
           "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "projectReferences": {}
@@ -3395,10 +3395,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
-      "net8.0-windows": {
+      "net8.0-windows7.0": {
         "framework": "net8.0-windows7.0",
         "targetAlias": "net8.0-windows",
         "dependencies": {
@@ -3448,7 +3448,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

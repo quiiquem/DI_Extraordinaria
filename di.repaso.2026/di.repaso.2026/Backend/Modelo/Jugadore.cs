@@ -38,7 +38,7 @@ public partial class Jugadore : ValidatableViewModel
     [Required(ErrorMessage = "La posición es obligatoria")]
     public string? Posicion { get; set; }
 
-
+    [Required(ErrorMessage = "El equipo es obligatorio")]
     [Column("Nombre_equipo")]
     [StringLength(20)]
     public string? NombreEquipo { get; set; }
@@ -48,6 +48,5 @@ public partial class Jugadore : ValidatableViewModel
 
     [ForeignKey("NombreEquipo")]
     [InverseProperty("Jugadores")]
-    [Required(ErrorMessage = "El equipo es obligatorio")]
     public virtual Equipo? NombreEquipoNavigation { get; set; }
 }

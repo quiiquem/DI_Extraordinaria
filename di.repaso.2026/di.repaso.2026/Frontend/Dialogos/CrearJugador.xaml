@@ -66,8 +66,8 @@
 
                     <ComboBox Width="170" Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Equipo" 
 Background="#F5F5F5" Margin="50,0" 
-                    ItemsSource="{Binding listaEquipos}"  DisplayMemberPath="Nombre"
-                    SelectedItem="{Binding jugador.NombreEquipoNavigation, Mode=TwoWay, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+                    ItemsSource="{Binding listaEquipos}"  DisplayMemberPath="Nombre" SelectedValuePath="Nombre"
+                    SelectedValue="{Binding jugador.NombreEquipo, Mode=TwoWay, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
 
                     <ComboBox  Width="170"  Height="35"  FontSize="12" VerticalContentAlignment="Center" Foreground="Gray" mah:TextBoxHelper.Watermark="Posición" Margin="0,-50" 
 Background="#F5F5F5"  ItemsSource="{Binding listaPosiciones}"
