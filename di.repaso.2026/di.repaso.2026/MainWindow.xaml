@@ -7,7 +7,6 @@
         mc:Ignorable="d"
        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         Icon="/Recursos/Iconos/pelota.png"
-
         Title="APP - BASKET" Height="450" Width="800">
 
     <mah:MetroWindow.RightWindowCommands>
@@ -21,15 +20,24 @@
     <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="0.8*"/>
+        </Grid.ColumnDefinitions>
         <!--Fuck menus-->
-        <Border Background="#476db6" Height="60">
+
+        <Border Background="#476db6" Height="60" x:Name="Border" Grid.Row="0" Grid.ColumnSpan="2" Panel.ZIndex="10">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
-                    <ColumnDefinition Width="Auto"/> 
+                    <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
@@ -37,10 +45,10 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                
+
                 <!--EQUIPOS-->
                 <TextBlock Text="EQUIPOS" Foreground="White" FontSize="9" HorizontalAlignment="Center" Grid.Row="0" Margin="0,5"/>
-                <Border Width="1" Background="White"  Grid.Column="1" Grid.RowSpan="2" Height="45" Margin="0,5" />
+                <Border Width="1" Background="White"  Grid.Column="1" Grid.RowSpan="2" Height="45" Margin="0,5"  />
 
                 <!--BOTONES EQUIPOS-->
                 <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Margin="0,0,0,20">
@@ -60,8 +68,6 @@ BorderBrush="White" Style="{StaticResource MahApps.Styles.Button.Circle}">
                         <Image Source="/Recursos/Iconos/arbolequipo.png" Width="15"/>
                     </Button>
                 </StackPanel>
-                
-                
                 <!--JUGADORES-->
                 <TextBlock Text="JUGADORES" Foreground="White" FontSize="9" HorizontalAlignment="Center" Grid.Row="0" Margin="0,5" Grid.Column="2"/>
                 <Border Width="1" Background="White"  Grid.Column="3" Grid.RowSpan="2" Height="45" Margin="0,5" />
@@ -85,6 +91,57 @@ BorderBrush="White" Style="{StaticResource MahApps.Styles.Button.Circle}">
                 </StackPanel>
             </Grid>
         </Border>
-        <Image Source="/Recursos/Imagenes/login.jpg" Width="300" Grid.Row="1" Margin="0,20"/>
+
+        <!--foto.-->
+        <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" Grid.Row="1" Height="450" Width="800" x:Name="fotorompehuevos" 
+                    Background="White" VerticalAlignment="Center"  Visibility="Collapsed" Panel.ZIndex="9">
+            <Image Source="/Recursos/Imagenes/login.jpg" Width="300" Margin="240,60" Grid.ColumnSpan="2" Visibility="Visible" Grid.Row="1" />
+        </StackPanel>
+
+        <!--FILTROS DE BÚSQUEDA-->
+        <StackPanel Orientation="Vertical" Grid.Column="0" Background="#302f41"  Grid.Row="1">
+
+            <TextBlock Text="OPCIONES DE BÚSQUEDA" Foreground="White" Margin="10,15"
+                           FontSize="8"/>
+
+            <TextBlock Text="Por Conferencia" Foreground="White" Margin="10,5" FontSize="8"/>
+
+            <ComboBox Width="130" FontSize="7"  Foreground="White" mah:TextBoxHelper.Watermark="Selecciona una conferencia"  
+                 SelectedValuePath="{Binding equipo.Conferencias}" ItemsSource="{Binding listaConferencias}"
+Background="Transparent" Margin="0,0"/>
+
+            <TextBlock Text="Por División" Foreground="White" Margin="10,5" FontSize="8"/>
+
+            <ComboBox Width="130" FontSize="9"  Foreground="White" mah:TextBoxHelper.Watermark="Selecciona una división"  
+                 SelectedValuePath="{Binding equipo.Division}" ItemsSource="{Binding listaDivisiones}"
+Background="Transparent" Margin="0,0"/>
+
+
+            <TextBlock Text="Por Nombre" Foreground="White" Margin="10,5" FontSize="8"/>
+            <TextBox Width="130" FontSize="9"  Foreground="White" MinHeight="1"
+                   Text="{Binding equipo.Nombre, UpdateSourceTrigger=PropertyChanged}" 
+Background="Transparent" Margin="0,0"/>
+
+            <Separator Height="3" Background="White" Width="145" Margin="0,15"/>
+
+            <Button x:Name="Limpiar_Filtros" Background="#476db6" Width="135" Content="ELIMINAR FILTROS"
+                        Click="borrar_filtros" BorderBrush="Transparent"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Top" >
+            <TextBlock Text="EQUIPOS DE LA LIGA" FontSize="20" Margin="20,10" Foreground="Black"/>
+            <Image Source="/Recursos/Iconos/pelota.png" Width="40"/>
+        </StackPanel>
+
+        <DataGrid Background="#EEEEEE" Foreground="#000000" ItemsSource="{Binding listaEquipos_CollectionView}" IsReadOnly="True" AutoGenerateColumns="False" Grid.Column="1" 
+                      Grid.Row="1"  VerticalAlignment="Top" Margin="0,47,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="NOMBRE DEL EQUIPO" Binding="{Binding Nombre}"/>
+                <DataGridTextColumn Header="CIUDAD" Binding="{Binding Ciudad}"/>
+                <DataGridTextColumn Header="CONFERENCIA" Binding="{Binding Conferencia}"/>
+                <DataGridTextColumn Header="DIVISIÓN" Binding="{Binding Division}"/>
+                <DataGridTextColumn Header="Nº JUGADORES" Binding="{Binding Jugadores.Count}"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </mah:MetroWindow>

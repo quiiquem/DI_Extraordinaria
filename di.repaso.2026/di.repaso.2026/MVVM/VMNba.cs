@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Data;
 
 namespace di.repaso._2026.MVVM
 {
@@ -31,6 +32,8 @@ namespace di.repaso._2026.MVVM
         private List<string> _listaDivisiones;
         //listas jugador
         private List<string> _listaPosiciones;
+        //listas datagrid (se declaran directamente en público)
+        public ListCollectionView listaEquipos_CollectionView { get; set; }
 
         //2. Declarar público
         public Equipo equipo
@@ -103,6 +106,10 @@ namespace di.repaso._2026.MVVM
                     _listaDivisiones = _equipoRepository.getDivisiones();
 
                     _listaPosiciones = _jugadorRepository.getPosiciones();
+
+                    //DataGrids.
+                    listaEquipos_CollectionView = new ListCollectionView(_listaEquipos);
+                    OnPropertyChanged(nameof(listaEquipos_CollectionView));
                 }
             }
             catch (Exception ex)

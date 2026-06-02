@@ -29,12 +29,19 @@ namespace di.repaso._2026
             DataContext = _vmNba;
         }
 
+        //Mostrar el datagrid inicializandolo.
+
         private void add_equipo(object sender, RoutedEventArgs e) {
             var dialogo = new CrearEquipo(_vmNba);
             dialogo.ShowDialog();
         }
 
-        private void listar_equipo(object sender, RoutedEventArgs e) { }
+        //Gemini fue util por una vez (DEP Claude) con el ZIndex 
+        private async void listar_equipo(object sender, RoutedEventArgs e)
+        {
+            fotorompehuevos.Visibility = Visibility.Collapsed;
+            await _vmNba.Inicializar();
+        }
         private void arbol_equipo(object sender, RoutedEventArgs e) { }
 
         private void add_jugador(object sender, RoutedEventArgs e)
@@ -44,5 +51,16 @@ namespace di.repaso._2026
         }
         private void listar_jugadores(object sender, RoutedEventArgs e) { }
         private void arbol_jugador(object sender, RoutedEventArgs e) { }
+
+        private void borrar_filtros(object sender, RoutedEventArgs e)
+        {
+            var dialogo = new CrearEquipo(_vmNba);
+            dialogo.ShowDialog();
+        }
+
+        private void Image_GiveFeedback(object sender, GiveFeedbackEventArgs e)
+        {
+
+        }
     }
 }

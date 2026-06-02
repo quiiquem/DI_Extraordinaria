@@ -10,8 +10,8 @@
                 
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Dark.purple.xaml" />
-                <mat:BundledTheme BaseTheme="Dark"
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.blue.xaml" />
+                <mat:BundledTheme BaseTheme="Light"
                                   PrimaryColor="Purple"
                                   SecondaryColor="Indigo" />
             </ResourceDictionary.MergedDictionaries>

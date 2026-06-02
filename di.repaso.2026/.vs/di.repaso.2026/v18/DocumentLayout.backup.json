@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\frontend\\dialogos\\crearjugador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\frontend\\dialogos\\crearjugador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\mvvm\\vmnba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\mvvm\\vmnba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\backend\\modelo\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\backend\\modelo\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\frontend\\dialogos\\crearjugador.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\frontend\\dialogos\\crearjugador.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\frontend\\dialogos\\crearequipo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\frontend\\dialogos\\crearequipo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\frontend\\dialogos\\crearjugador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\frontend\\dialogos\\crearjugador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\mvvm\\vmnba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\mvvm\\vmnba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\frontend\\dialogos\\crearequipo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\frontend\\dialogos\\crearequipo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\backend\\modelo\\jugadore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +51,8 @@
       "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\backend\\repositorio\\jugadorrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\frontend\\dialogos\\crearequipo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\frontend\\dialogos\\crearequipo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\backend\\modelo\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\backend\\modelo\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\backend\\repositorio\\partidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\backend\\repositorio\\estadisticarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\backend\\modelo\\nbacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\backend\\modelo\\nbacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|solutionrelative:di.repaso.2026\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9C1B113-A7EB-442A-9E5F-7C2B596C6E7B}|di.repaso.2026\\di.repaso.2026.csproj|c:\\users\\practicas1\\downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\mvvm\\base\\validatableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,46 +146,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JugadorRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Repositorio\\JugadorRepositorio.cs",
-              "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Repositorio\\JugadorRepositorio.cs",
-              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Repositorio\\JugadorRepositorio.cs",
-              "RelativeToolTip": "di.repaso.2026\\Backend\\Repositorio\\JugadorRepositorio.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAArAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Equipo.cs",
+              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Modelo\\Equipo.cs",
+              "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Modelo\\Equipo.cs",
+              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Modelo\\Equipo.cs",
+              "RelativeToolTip": "di.repaso.2026\\Backend\\Modelo\\Equipo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T17:09:28.997Z",
+              "WhenOpened": "2026-06-02T10:25:13.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CrearJugador.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\CrearJugador.xaml.cs",
-              "RelativeDocumentMoniker": "di.repaso.2026\\Frontend\\Dialogos\\CrearJugador.xaml.cs",
-              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\CrearJugador.xaml.cs",
-              "RelativeToolTip": "di.repaso.2026\\Frontend\\Dialogos\\CrearJugador.xaml.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAYwE8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T16:52:31.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VMNba.cs",
-              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MVVM\\VMNba.cs",
-              "RelativeDocumentMoniker": "di.repaso.2026\\MVVM\\VMNba.cs",
-              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MVVM\\VMNba.cs",
-              "RelativeToolTip": "di.repaso.2026\\MVVM\\VMNba.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAA4wKEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T08:41:30.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "CrearJugador.xaml",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\CrearJugador.xaml",
               "RelativeDocumentMoniker": "di.repaso.2026\\Frontend\\Dialogos\\CrearJugador.xaml",
@@ -201,20 +171,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MainWindow.xaml.cs",
               "RelativeToolTip": "di.repaso.2026\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwCIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T14:01:13.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\App.xaml.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\App.xaml.cs",
@@ -222,12 +192,11 @@
               "RelativeToolTip": "di.repaso.2026\\App.xaml.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAzwDEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T09:17:13.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T09:17:13.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "EquipoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Repositorio\\EquipoRepositorio.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Repositorio\\EquipoRepositorio.cs",
@@ -235,12 +204,11 @@
               "RelativeToolTip": "di.repaso.2026\\Backend\\Repositorio\\EquipoRepositorio.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAUwCUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T10:05:18.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T10:05:18.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Jugadore.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Modelo\\Jugadore.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Modelo\\Jugadore.cs",
@@ -248,12 +216,11 @@
               "RelativeToolTip": "di.repaso.2026\\Backend\\Modelo\\Jugadore.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAqwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T07:14:59.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T07:14:59.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "CrearEquipo.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\CrearEquipo.xaml.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\Frontend\\Dialogos\\CrearEquipo.xaml.cs",
@@ -261,24 +228,84 @@
               "RelativeToolTip": "di.repaso.2026\\Frontend\\Dialogos\\CrearEquipo.xaml.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowEcAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-30T00:54:34.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-30T00:54:34.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MainWindow.xaml",
               "RelativeDocumentMoniker": "di.repaso.2026\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MainWindow.xaml",
-              "RelativeToolTip": "di.repaso.2026\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MainWindow.xaml*",
+              "RelativeToolTip": "di.repaso.2026\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-28T11:54:30.618Z",
+              "WhenOpened": "2026-06-02T09:45:41.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\App.xaml",
+              "RelativeDocumentMoniker": "di.repaso.2026\\App.xaml",
+              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\App.xaml",
+              "RelativeToolTip": "di.repaso.2026\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-27T08:59:06.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VMNba.cs",
+              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MVVM\\VMNba.cs",
+              "RelativeDocumentMoniker": "di.repaso.2026\\MVVM\\VMNba.cs",
+              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MVVM\\VMNba.cs",
+              "RelativeToolTip": "di.repaso.2026\\MVVM\\VMNba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T08:41:30.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\Login.xaml",
+              "RelativeDocumentMoniker": "di.repaso.2026\\Frontend\\Dialogos\\Login.xaml",
+              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\Login.xaml",
+              "RelativeToolTip": "di.repaso.2026\\Frontend\\Dialogos\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-27T09:07:04.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrearJugador.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\CrearJugador.xaml.cs",
+              "RelativeDocumentMoniker": "di.repaso.2026\\Frontend\\Dialogos\\CrearJugador.xaml.cs",
+              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\CrearJugador.xaml.cs",
+              "RelativeToolTip": "di.repaso.2026\\Frontend\\Dialogos\\CrearJugador.xaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAqwFIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T16:52:31.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JugadorRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Repositorio\\JugadorRepositorio.cs",
+              "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Repositorio\\JugadorRepositorio.cs",
+              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Repositorio\\JugadorRepositorio.cs",
+              "RelativeToolTip": "di.repaso.2026\\Backend\\Repositorio\\JugadorRepositorio.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T17:09:28.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\Login.xaml.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\Frontend\\Dialogos\\Login.xaml.cs",
@@ -290,19 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CrearEquipo.xaml",
-              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\CrearEquipo.xaml",
-              "RelativeDocumentMoniker": "di.repaso.2026\\Frontend\\Dialogos\\CrearEquipo.xaml",
-              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\CrearEquipo.xaml",
-              "RelativeToolTip": "di.repaso.2026\\Frontend\\Dialogos\\CrearEquipo.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-29T08:37:02.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MVBase.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MVVM\\Base\\MVBase.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\MVVM\\Base\\MVBase.cs",
@@ -314,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Repositorio\\GenericRepository.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Repositorio\\GenericRepository.cs",
@@ -323,18 +338,6 @@
               "ViewState": "AgIAACIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T17:26:51.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Equipo.cs",
-              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Modelo\\Equipo.cs",
-              "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Modelo\\Equipo.cs",
-              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Modelo\\Equipo.cs",
-              "RelativeToolTip": "di.repaso.2026\\Backend\\Modelo\\Equipo.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T08:41:12.798Z"
             },
             {
               "$type": "Document",
@@ -350,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PartidoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Repositorio\\PartidoRepositorio.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Repositorio\\PartidoRepositorio.cs",
@@ -362,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "EstadisticaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Repositorio\\EstadisticaRepositorio.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Repositorio\\EstadisticaRepositorio.cs",
@@ -374,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "ValidatableViewModel.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\MVVM\\Base\\ValidatableViewModel.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\MVVM\\Base\\ValidatableViewModel.cs",
@@ -386,30 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\Login.xaml",
-              "RelativeDocumentMoniker": "di.repaso.2026\\Frontend\\Dialogos\\Login.xaml",
-              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Frontend\\Dialogos\\Login.xaml",
-              "RelativeToolTip": "di.repaso.2026\\Frontend\\Dialogos\\Login.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-27T09:07:04.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\App.xaml",
-              "RelativeDocumentMoniker": "di.repaso.2026\\App.xaml",
-              "ToolTip": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\App.xaml",
-              "RelativeToolTip": "di.repaso.2026\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-27T08:59:06.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "IPartidoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Repositorio\\IPartidoRepositorio.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Repositorio\\IPartidoRepositorio.cs",
@@ -421,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "IEstadisticaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\PRACTICAS1\\Downloads\\di.repaso.2026\\di.repaso.2026\\di.repaso.2026\\Backend\\Repositorio\\IEstadisticaRepositorio.cs",
               "RelativeDocumentMoniker": "di.repaso.2026\\Backend\\Repositorio\\IEstadisticaRepositorio.cs",
